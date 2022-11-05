@@ -1,0 +1,16 @@
+.editor-container{
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.editor{
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 2px black;
+  border-radius: 20px;
+}

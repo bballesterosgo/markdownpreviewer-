@@ -41,7 +41,7 @@ const changeInput = e => (
   setInput(e.target.value)
 );
 
-  return <div>
+  return <div className='markdown'>
     <Editor 
       input={ input }
       changeInput={changeInput}/>
