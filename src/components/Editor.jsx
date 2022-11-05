@@ -1,5 +1,5 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
+import Preview from './Preview';
 
 import '../stylesheet/Editor.css';
 
@@ -12,10 +12,10 @@ function Editor ({ input,changeInput }) {
       cols="30" 
       rows="10"
       autoFocus
-      value={input}
       onChange={changeInput}>
     </textarea>
-    <ReactMarkdown source={input} className='markdown'/>
+    <Preview 
+      input={ input }/>
   </div>
 }
 
