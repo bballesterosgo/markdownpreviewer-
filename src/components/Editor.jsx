@@ -12,6 +12,7 @@ function Editor ({ input,changeInput }) {
       cols="30" 
       rows="10"
       autoFocus
+      value={input}
       onChange={changeInput}>
     </textarea>
     <Preview 

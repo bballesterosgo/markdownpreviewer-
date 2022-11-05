@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
             <div className='title-logo-container'>
-        <h1>Markdown Previewer</h1>
+        <h1 className='title'>Markdown Previewer</h1>
       </div>
       <Markdown />
     </div>
